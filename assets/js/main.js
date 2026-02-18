@@ -154,6 +154,8 @@ const I18N = {
 function applyLang(lang) {
   const dict = I18N[lang] || I18N.en;
 
+  document.documentElement.setAttribute("lang", lang === "zh" ? "zh-Hans" : "en");
+
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
     if (dict[key]) el.textContent = dict[key];

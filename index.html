@@ -59,24 +59,26 @@
 
 
           <div class="hero-actions">
-            <a class="btn btn-gold" href="services.html">View Services</a>
-            <a class="btn btn-outline" href="contact.html">Contact Us</a>
+            <a class="btn btn-gold" href="services.html">
+              <span data-i18n="home.btn.services">View Services</span>
+            </a>
+            <a class="btn btn-outline" href="contact.html">
+              <span data-i18n="home.btn.contact">Contact Us</span>
+            </a>
           </div>
 
           <hr class="sep" />
-          <p class="small">
-            Internal access note: portal login requires Tailscale connection and authorized credentials.
-          </p>
+        <p class="small" data-i18n="home.note">
+          Internal access note: portal login requires Tailscale connection and authorized credentials.
+        </p>
         </div>
 
         <div class="card card-pad media">
           <!-- Put a real photo at assets/img/hero.jpg, or keep placeholder -->
-          <div class="ph">
-            <div>
-              <div style="font-weight:700; margin-bottom:6px;">Hero Image Placeholder</div>
-              <div class="small">Drop an image at <code>assets/img/hero.jpg</code></div>
-            </div>
+          <div class="card card-pad media">
+            <img src="assets/img/hero.jpg" alt="Cosmos Customs Service Canada" class="hero-img" />
           </div>
+
           <!-- If you add the image, replace the placeholder with:
           <img src="assets/img/hero.jpg" alt="Cosmos Customs Service Canada" />
           -->
@@ -87,16 +89,18 @@
     <section class="section">
       <div class="container grid-3">
         <div class="card card-pad feature">
-          <h3>Compliance-minded process</h3>
-          <p>Clear documentation flow with audit-friendly structure and consistent outputs.</p>
+          <h3 data-i18n="home.f1.title">Compliance-minded process</h3>
+          <p data-i18n="home.f1.desc">Clear documentation flow with audit-friendly structure and consistent outputs.</p>
         </div>
+
         <div class="card card-pad feature">
-          <h3>Operational clarity</h3>
-          <p>Simple, consistent intake and review steps that reduce rework and avoid surprises.</p>
+          <h3 data-i18n="home.f2.title">Operational clarity</h3>
+          <p data-i18n="home.f2.desc">Simple, consistent intake and review steps that reduce rework and avoid surprises.</p>
         </div>
+
         <div class="card card-pad feature">
-          <h3>Internal portal integration</h3>
-          <p>Portal access is separated from the public site to keep internal workflows secure.</p>
+          <h3 data-i18n="home.f3.title">Internal portal integration</h3>
+          <p data-i18n="home.f3.desc">Portal access is separated from the public site to keep internal internal workflows secure.</p>
         </div>
       </div>
     </section>
